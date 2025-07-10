@@ -1,6 +1,10 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "dotenv"
-gem "github-pages"
-gem "jekyll"
-gem "jekyll-github-metadata"
+gem "jekyll", "~> 4.2.0"
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
+gem "webrick"
+gem "base64"
+gem "bigdecimal"
+gem 'jekyll-github-metadata'
+
